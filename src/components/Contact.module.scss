@@ -1,0 +1,17 @@
+.grid {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.socialMediaList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
