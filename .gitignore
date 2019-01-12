@@ -10,6 +10,7 @@
 
 # production
 /job_files
+/build
 
 # misc
 .DS_Store
