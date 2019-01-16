@@ -1,0 +1,33 @@
+.controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #00635d !important;
+  padding: 2rem;
+}
+
+.iconButton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  &.play {
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+  }
+  &.stop {
+    transition: opacity 0.3s, transform 0.3s;
+    transform: rotate(-180deg);
+    opacity: 0;
+  }
+
+  &.active {
+    &.play {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+    &.stop {
+      transform: rotate(180deg);
+      opacity: 1;
+    }
+  }
+}
