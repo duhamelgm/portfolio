@@ -1,0 +1,18 @@
+.paper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2rem;
+  width: 60%;
+  margin: auto;
+}
+
+.content {
+  margin: 0 1.5rem;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

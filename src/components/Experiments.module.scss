@@ -1,5 +1,6 @@
 .grid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
+  //grid-gap: 1rem;
 }

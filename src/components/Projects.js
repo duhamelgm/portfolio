@@ -27,9 +27,7 @@ export default class Projects extends Component {
 
           <ul className={classes.grid}>
             {projects.map((element, id) => (
-              <li key={id}>
-                <SingleCard project={element} />
-              </li>
+              <SingleCard key={id} project={element} />
             ))}
           </ul>
         </div>

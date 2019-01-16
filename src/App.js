@@ -18,7 +18,8 @@ import {
   faEnvelope,
   faPlay,
   faStepForward,
-  faPause
+  faPause,
+  faLink
 } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -32,7 +33,8 @@ library.add(
   faGithub,
   faPlay,
   faStepForward,
-  faPause
+  faPause,
+  faLink
 );
 
 class App extends Component {

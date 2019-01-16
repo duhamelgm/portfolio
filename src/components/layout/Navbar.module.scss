@@ -5,6 +5,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}
+
 .navList {
   position: fixed !important;
   background: #00635d;
@@ -12,10 +18,16 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 
   li {
     margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      color: #999;
+      cursor: pointer;
+    }
   }
 
   :first-child {
