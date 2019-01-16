@@ -19,7 +19,7 @@ export default class Experiments extends Component {
     const { experiments } = this.state;
 
     return (
-      <section>
+      <section id="experiments">
         <div className="container">
           <header>
             <h2 className="title">Experiments</h2>

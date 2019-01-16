@@ -19,7 +19,7 @@ export default class Projects extends Component {
     const { projects } = this.state;
 
     return (
-      <section>
+      <section id="projects">
         <div className="container">
           <header>
             <h2 className="title">Projects</h2>

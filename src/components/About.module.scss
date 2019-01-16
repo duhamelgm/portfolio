@@ -1,7 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   grid-template-areas:
     "title title"
     "photo descr";
@@ -12,5 +11,13 @@
 }
 
 .photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-area: photo;
+
+  img {
+    border-radius: 50%;
+    width: 50%;
+  }
 }

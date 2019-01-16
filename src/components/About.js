@@ -1,16 +1,22 @@
 import React, { Component } from "react";
 import classNames from "classnames";
 
+import bioPicture from "../assets/img/bio_picture.jpeg";
+
 import classes from "./About.module.scss";
 
 export default class About extends Component {
   render() {
     return (
-      <section>
+      <section id="about">
         <div className={classNames("container", classes.grid)}>
-          <header>
+          <header className={classes.title}>
             <h2 className="title">About</h2>
           </header>
+          <div className={classes.photo}>
+            <img src={bioPicture} alt="Bio Picture" />
+          </div>
+
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae praesentium fugit nihil
             necessitatibus eveniet adipisci quae nulla accusamus iste provident, qui omnis, optio

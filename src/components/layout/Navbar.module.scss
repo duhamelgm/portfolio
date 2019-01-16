@@ -1,14 +1,14 @@
 .nav {
-  margin-right: 4rem;
+  margin-right: 4.5rem;
   height: 100vh;
   background: #00635d;
   position: relative;
 }
 
 .navList {
-  position: fixed;
+  position: fixed !important;
   background: #00635d;
-  width: 4rem;
+  width: 4.5rem;
   height: 100%;
   display: flex;
   flex-direction: column;

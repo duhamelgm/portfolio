@@ -24,7 +24,7 @@ const socialMedia = [
 export default class Contact extends Component {
   render() {
     return (
-      <section>
+      <section id="contact">
         <div className="container">
           <div className={classes.grid}>
             <header>

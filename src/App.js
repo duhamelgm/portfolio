@@ -15,11 +15,25 @@ import {
   faUser,
   faBriefcase,
   faFlask,
-  faEnvelope
+  faEnvelope,
+  faPlay,
+  faStepForward,
+  faPause
 } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faIgloo, faUser, faBriefcase, faFlask, faEnvelope, faTwitter, faGithub);
+library.add(
+  faIgloo,
+  faUser,
+  faBriefcase,
+  faFlask,
+  faEnvelope,
+  faTwitter,
+  faGithub,
+  faPlay,
+  faStepForward,
+  faPause
+);
 
 class App extends Component {
   render() {
@@ -32,6 +46,7 @@ class App extends Component {
           <Projects />
           <Experiments />
           <Contact />
+
           <Footer />
         </main>
       </div>
