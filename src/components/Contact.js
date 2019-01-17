@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import TextField from "@material-ui/core/TextField";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import IconButton from "@material-ui/core/IconButton";
+import Button from "@material-ui/core/Button";
 
 import classes from "./Contact.module.scss";
 
@@ -30,10 +31,14 @@ export default class Contact extends Component {
             <header>
               <h2 className="title">Contact</h2>
             </header>
-            <form action="post" className={classes.contactForm}>
+            <form name="contact" method="post" className={classes.contactForm}>
+              <input type="hidden" name="form-name" value="contact" />
               <TextField name="name" label="Name" margin="dense" />
               <TextField name="email" label="Email" margin="dense" />
               <TextField name="message" label="Your message" multiline margin="dense" />
+              <Button type="submit" variant="outlined" className={classes.button}>
+                Default
+              </Button>
             </form>
             <ul className={classes.socialMediaList}>
               {socialMedia.map((element, id) => (
